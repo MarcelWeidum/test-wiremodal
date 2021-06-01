@@ -1,7 +1,8 @@
 module.exports = {
   purge: [
-    './resources/**/*.blade.php',
-    './resources/**/**/*.blade.php'
+    './vendor/livewire-ui/modal/resources/views/*.blade.php',
+    './storage/framework/views/*.php',
+    './resources/views/**/*.blade.php',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
